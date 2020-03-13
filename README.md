@@ -17,18 +17,30 @@ my
 # Entrenamiento:
 
 Me centro en scikit-learn, son unas herramientas para predecir análisis de datos, para ello utilizo:
+
 models = {
     "Linear": LinearSVR(),
+    
     "neigbor":KNeighborsRegressor(),
+    
     "boosting": GradientBoostingRegressor(),
+    
     "boosting2": GradientBoostingRegressor(n_estimators=500),
+   
     "boosting3": GradientBoostingRegressor(n_estimators=1000),
+    
     "histboosting": HistGradientBoostingRegressor(),
+    
     "histboosting2": HistGradientBoostingRegressor(learning_rate=0.2),
+    
     "histboosting3": HistGradientBoostingRegressor(learning_rate=0.4),
+    
     "forest": RandomForestRegressor(),
+    
     "forest250": RandomForestRegressor(n_estimators=250),
+    
     "forest350": RandomForestRegressor(n_estimators=350),
+    
     "tree": DecisionTreeClassifier(random_state=0, max_depth=2)
 }
 
