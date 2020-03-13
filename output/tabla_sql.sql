@@ -1,1 +1,1 @@
-SELECT * FROM fifa.fifa ;
+SELECT * FROM mydb.soccer;
