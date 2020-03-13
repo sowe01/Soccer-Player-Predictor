@@ -19,6 +19,7 @@ my
 Me centro en scikit-learn, son unas herramientas para predecir análisis de datos, para ello utilizo:
 
 models = {
+    
     "Linear": LinearSVR(),
     
     "neigbor":KNeighborsRegressor(),
