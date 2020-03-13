@@ -13,7 +13,8 @@ Tenemos descargados 6 datasets de Kaggle, hago el entrenamiento con 5 de ellos (
 limpiamos train, y test
 Compruebo las columnas tipo objeto y les asigo valores relacionados entre si para tener la columna tipo numérica, como los países y equipos, según las clasificaciones fifa
 my
-#Entrenamiento:
+
+# Entrenamiento:
 
 Me centro en scikit-learn, son unas herramientas para predecir análisis de datos, para ello utilizo:
 models = {
@@ -33,7 +34,7 @@ models = {
 
 Pruebo con H2oAutoML, buscará automáticamente modelos de machine learning que se ajustan a los datos y entrenaremos con el mejor:
 
-#Conclusion:
+# Conclusion:
 XGBoost_1_AutoML_20200308_215025 da como ganador
 
 #MySql Workbench, cargo el dataset y a través de Flask hago las peticiones
